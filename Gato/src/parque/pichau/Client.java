@@ -9,6 +9,7 @@ public class Client {
     private String email;
     private String password;
     private String confirmPassword;
+    private Endereco address;
 
     /**
      * @return the name
@@ -121,4 +122,18 @@ public class Client {
     public void setConfirmPassword(String confirmPassword) {
         this.confirmPassword = confirmPassword;
     }
+
+    /**
+     * @return the address
+     */
+    public Endereco getAddress() {
+        return address;
+    }
+
+    /**
+     * @param address the address to set
+     */
+    public void setAddress(Endereco address) {
+        this.address = address;
+    }    
 }
